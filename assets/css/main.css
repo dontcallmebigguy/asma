@@ -2840,6 +2840,7 @@
 
 	.wrapper {
 		padding: 6em 0;
+		padding-bottom: 0em;
 		position: relative;
 	}
 
