@@ -2,7 +2,6 @@
 title: Asooma
 subtitle: Asma Alkaifi
 description: Poetry, Law, and Blogging by Asma
-baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://asma.fyi" # the base hostname & protocol for your site
 author: Asma Alkaifi
 
