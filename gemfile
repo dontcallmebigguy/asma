@@ -3,4 +3,3 @@ gemspec
 
 source 'https://rubygems.org'
 'github-pages'
-
