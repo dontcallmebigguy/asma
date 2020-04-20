@@ -1,5 +1,6 @@
 ---
 layout: post
+type: poem
 title: Breezeway
 image: assets/images/breezeway.jpg
 dateWritten: March 8 2020

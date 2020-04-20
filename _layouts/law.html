@@ -10,34 +10,33 @@
 
 <body>
 
-    {% include header.html %}
+  {% include header.html %}
 
 
-    <!-- Main -->
-    <div id="main" class="alt">
+  <!-- Main -->
+  <div id="main" class="alt">
 
-        <!-- One -->
-        <section id="one">
-            <h1>Coming Soon!</h1>
-            {% for post in site.laws%}
-            <div class="inner">
-                {% if post.title != 404 %}
-                <header class="major">
-                    <h1>{{ post.title }}</h1>
-                </header>
-                {% if post.dateWritten %}<p>{{ post.dateWritten }}</p>{% endif %}
-                {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}"
-                        alt="" /></span>{% endif %}
-                <p>{{ post.content }}</p>
-                <hr>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </section>
+    <!-- One -->
+    <section id="one">
+      {% for post in site.posts %}
+      <div class="inner">
+        {% if post.title != 404 and post.type == 'law' %}
+        <header class="major">
+          <h1>{{ post.title }}</h1>
+        </header>
+        {% if post.dateWritten %}<p>{{ post.dateWritten }}</p>{% endif %}
+        {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}"
+            alt="" /></span>{% endif %}
+        <p>{{ post.content }}</p>
+        <hr>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </section>
 
-    </div>
+  </div>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
 </body>
 

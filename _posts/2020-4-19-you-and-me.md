@@ -1,5 +1,6 @@
 ---
 layout: post
+type: poem
 title: You and Me
 image: assets/images/you-and-me.jpg
 dateWritten: April 19, 2020

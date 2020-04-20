@@ -20,7 +20,7 @@
     <section id="one">
       {% for post in site.posts %}
       <div class="inner">
-        {% if post.title != 404 %}
+        {% if post.title != 404 and post.type == 'poem' %}
         <header class="major">
           <h1>{{ post.title }}</h1>
         </header>

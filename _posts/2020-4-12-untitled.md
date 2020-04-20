@@ -1,5 +1,6 @@
 ---
 layout: post
+type: poem
 title: Untitled
 image: assets/images/untitled.jpg
 dateWritten: April 12, 2020
