@@ -1,5 +1,5 @@
 ---
-layout: allposts
+layout: law
 title: Law
 landing-title: 'Law'
 nav-menu: true
@@ -9,4 +9,4 @@ author: null
 show_tile: true
 ---
 
-<h1>Poetry</h1>
+<h1>Law</h1>

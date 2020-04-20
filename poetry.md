@@ -1,5 +1,5 @@
 ---
-layout: allposts
+layout: poetry
 title: Poetry
 landing-title: 'Poetry'
 nav-menu: true
